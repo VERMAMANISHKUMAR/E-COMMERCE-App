@@ -1,0 +1,66 @@
+
+
+/* Navbar Styling */
+.navbar {
+          background-color: #f8f9fa; 
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+          
+        }
+        
+        /* Logo Branding */
+        .navbar-brand {
+          font-weight: bold;
+          font-size: 1.8rem; 
+          color: #007bff; 
+          text-transform: uppercase; 
+       
+        }
+        
+        /* Navbar Links Styling */
+        .nav-link {
+          font-size: 1rem;
+          color: #495057; 
+          transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+          color: #007bff; 
+        }
+        
+        /* Icons and Button Alignment */
+        .nav-link .me-2 {
+          font-size: 1.2rem; 
+          color: #007bff; 
+        }
+        
+        button.btn-outline-primary {
+          border: 1px solid #007bff;
+          color: #007bff;
+          font-weight: 500;
+          padding: 0.4rem 1rem;
+          transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        /* Button Hover Effect */
+        button.btn-outline-primary:hover {
+          background-color: #007bff;
+          color: #fff; 
+        }
+        
+        /* Mobile Navbar Styling */
+        .navbar-toggler {
+          border-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 992px) {
+          /* Adjust link size and padding on smaller screens */
+          .nav-link {
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+          }
+        
+          .btn {
+            margin-top: 1rem; /* Separate buttons when collapsed */
+          }
+        }
+        
